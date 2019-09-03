@@ -29,15 +29,25 @@ th{
 }
 
 .myAnswer{
-	width: 400px;
-	height: 200px;
-	background: purple;
-	transition: width 2s;
-
+	
+    z-index: -1;
+    width: 600px;
 }
-
-.myAnswer:hover {
+.hoverBack{
     background: purple;
-	width: 800px;
+    position: absolute; 
+    top: 290px;
+    left: 0px;
+    transition: width 2s;
+    width: 600px;
+	height: 100px;
+    z-index: 2;
+   
+}
+.hoverBack:hover {
+    transition: width 6s;
+    background: purple;
+	width: 6px;
+    
 }
 

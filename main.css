@@ -2,13 +2,19 @@ h1{
     font-size: 40px;
     font-family: 'Lato', sans-serif;
     color: #E56500;
+    text-align: center;
 }
 
 li{
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     color: #E56500;
+    display: inline;
+    float: center;
+    text-align: center
 }
 body{
     background-color: #FDF6ED;
 }
+
+a

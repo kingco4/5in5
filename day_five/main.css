@@ -2,10 +2,17 @@ body{
     background-color: #053C06;
 }
 
+h1{
+    text-align: center;
+    color: #2CF50D;
+    font-family: 'Lalezar', cursive;
+}
 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  
+    position:absolute;
+    top: calc(50% -175px);
+    left: calc(50% -150px);
+    
     width: 30%;
     height: 70%;
 }
