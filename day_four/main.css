@@ -1,0 +1,43 @@
+body{
+    background-color: #27014B;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    color: #E6CFFC;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    color: #E6CFFC;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace;
+    color: E6CFFC;
+}
+td{
+    font-family: 'Roboto Mono', monospace;
+    color: E6CFFC;
+    background-color: #7A38B8;
+}
+
+th{
+    font-family: 'Roboto Mono', monospace;
+    color:E6CFFC;
+    background-color: #8D41D4;
+}
+
+.myAnswer{
+	width: 400px;
+	height: 200px;
+	background: purple;
+	transition: width 2s;
+
+}
+
+.myAnswer:hover {
+    background: purple;
+	width: 800px;
+}
+

@@ -1,0 +1,47 @@
+body{
+    background-color: #053C06;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 70%;
+}
+
+/*Previous code learned from w3schools was referenced in making this*/
+
+.flipC {
+  width: 1000px;
+  height: 500px;
+  perspective: 1000px; 
+}
+
+
+.innerFlip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flipC:hover .innerFlip {
+  transform: rotateY(180deg);
+}
+
+.frontFlip, .backFlip {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.backFlip {
+  transform: rotateY(180deg);
+}
+

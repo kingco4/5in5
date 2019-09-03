@@ -1,0 +1,41 @@
+table {
+    border: 3px orange;
+    
+}
+
+th{
+    background-color: #BB4100;
+    color: #FF9861;
+    font-family: 'PT Sans', sans-serif;
+}
+td{
+    background-color: #D75C1C;
+    color: #FF9861;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+h1{
+    color: #DD6700;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+
+}
+p{
+    color: #DD6700;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+body{
+    background-color: #ffaa6c;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}

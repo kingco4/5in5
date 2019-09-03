@@ -1,0 +1,35 @@
+p{
+    
+    font-size: 80px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Anton', sans-serif;
+    animation-name: textTransition; 
+    animation-duration: 4s; 
+    animation-iteration-count: infinite; 
+
+    
+}
+
+body{
+    background-image: url(images/gayAuntie.jpg);
+}
+
+@keyframes textTransition {
+  0% {
+       color: #07A8E9;
+      opacity: 1;
+     } 
+  50% {
+        color: #07A8E9;
+        opacity: 0;
+     }
+  100% {
+        color: #07A8E9;
+        opacity: 1;
+    }
+}
