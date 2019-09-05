@@ -31,12 +31,12 @@ th{
 .myAnswer{
 	
     z-index: -1;
-    width: 600px;
+    max-width: 600px;
 }
 .hoverBack{
     background: purple;
     position: absolute; 
-    top: 290px;
+    top: 350px;
     left: 0px;
     transition: width 2s;
     width: 600px;
