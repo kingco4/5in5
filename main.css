@@ -40,3 +40,9 @@ li a {
 li a:hover {
   background-color: gray;
 }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
