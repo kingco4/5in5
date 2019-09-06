@@ -36,7 +36,7 @@ th{
 .hoverBack{
     background: purple;
     position: absolute; 
-    top: 350px;
+    top: 360px;
     left: 0px;
     transition: width 2s;
     width: 600px;
